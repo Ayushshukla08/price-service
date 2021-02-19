@@ -17,7 +17,7 @@ public class PriceController {
      * @param city name
      * @return fuel price
      */
-    @GetMapping("getPrice/{city}")
+    @GetMapping("fuel-price/{city}")
     public Double getPrice(@PathVariable String city) {
         log.info("inside call {}", city);
 
